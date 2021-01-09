@@ -20,3 +20,8 @@ my_list
 #The value inside the double square bracket represents the position of the item in a list we want to extract.
 # Print second element of the list
 my_list[[2]]
+#Slicing out the value from one of the data structures, from the List.
+my_list_slice <- my_list[[2]]
+my_list_slice
+my_list_slice[,3]
+my_list_slice[2,3]  #fetch out 8
